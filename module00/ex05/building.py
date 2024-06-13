@@ -2,6 +2,8 @@ import sys
 
 
 def get_punt(text) -> bool:
+    """This function will return the number of punctuation marks in a given\
+ text"""
     return sum([1 for x in text if not str.isalnum(x) and not str.isspace(x)])
 
 
