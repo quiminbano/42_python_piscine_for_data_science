@@ -27,3 +27,6 @@ Baratheon class and Lannister classes."""
     def get_eyes(self):
         """This method should return the eyes attribute."""
         return self.eyes
+
+    eyes_property = property(get_eyes, set_eyes)
+    hairs_property = property(get_hairs, set_hairs)

@@ -16,7 +16,7 @@ name and is_alive attributes."""
     def __str__(self):
         """This method should return the string representation of the \
 Baratheon character."""
-        string = f"Vector: ({self.family_name}, {self.eyes}, {self.hairs})"
+        string = f"Vector: ({self.family_name}, {self._eyes}, {self._hairs})"
         return string
 
     def __repr__(self):
@@ -48,7 +48,7 @@ name and is_alive attributes."""
     def __str__(self):
         """This method should return the string representation of the \
 Lannister character."""
-        string = f"Vector: ({self.family_name}, {self.eyes}, {self.hairs})"
+        string = f"Vector: ({self.family_name}, {self._eyes}, {self._hairs})"
         return string
 
     def __repr__(self):
